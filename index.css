@@ -1,0 +1,136 @@
+html, body {height: 100%; background-color: black;}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#headerMain-section{
+    height:100%;
+    background-image: url('./imagens/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 0px 2px 4px black;
+    color: white;
+}
+
+#secondPart-section{
+    height: 100%;
+    background-image: url('./imagens/secondPartBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 0px 2px 4px black;
+    color: white;
+}
+
+#thirdPart-section{
+    height: 100%;
+    background-image: url('./imagens/thirdPartBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black !important;
+}
+
+.logo{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.header-side{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.header-side div{
+    position: relative;
+    bottom: -10px;
+}
+
+.logoImg{
+    width: 64px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.navigation{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navigation a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main{
+    padding: 100px;
+}
+
+main h1{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.left-side-hand{
+    width: 50%;
+    padding: 80px;
+}
+
+.left-side-hand p{
+    text-align: justify;
+}
+
+.right-side-hand img{
+    width: 500px;
+    margin-top: 50%;
+}
+
+.disp-display{
+    font-family: monospace !important;
+    display: flex;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.title-search{
+    display: flex;
+    flex-direction: column;
+    text-align: justify !important;
+    margin: 20px;
+}
+
+.title-search a, .title-search p{
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.download img{
+    width: 150px;
+}
+
+.icons img{
+    width: 50px;
+
+}

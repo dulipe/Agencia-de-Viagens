@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/744/744502.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>ivTravels</title>
+    <link rel="stylesheet" href="walkAround.css">
+</head>
+<body>
+    <section id="headerMain-section">
+        <header data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <div class="logo">
+                <img src="./imagens/logoSite.png">
+            </div>
+            <div class="navigation">
+                <a href="index.html">Home</a>
+                <a href="#">Viagens</a>
+                <a href="planos.html">Planos</a>
+                <a href="walkAround.html">Walk Around</a>
+                <a href="#">Contato</a>
+            </div>
+        </header>
+        <main data-aos="fade-right"
+        data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+            <h1>Separamos algo especial para você</h1>
+            <h2>Abaixo você irá conseguir ver os países e localidades que deseja visitar</h2>
+        </main>
+        <div class="navigation">
+            <a href="#map" onclick="initMap(-22.9525, -43.2105)">Brasil - Rio de Janeiro</a>
+            <a href="#map" onclick="initMap(-13.162217605971696, -72.5447812038981)">Peru - Machu Picchu</a>
+            <a href="#map" onclick="initMap(18.040552198091024, -63.12155221531329)">San Martin - Caribe</a>
+            <a href="#map" onclick="initMap(35.658541426297155, 139.7456394808287)">Japão - Toquio</a>
+            <a href="#map" onclick="initMap(48.85822189103525, 2.2942450038509365)">França - París</a>
+        </div>
+    </section>
+
+    <section
+    data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-duration="1500" id="fifthPart-section">
+        
+        <div id="map">
+
+        </div>
+    </section>
+
+    <section data-aos="fade-down"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine" data-aos-duration="1500" id="thirdPart-section">
+    <div class="disp-display">
+        <div class="title-search" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h3>ivTravels Brasil</h3>
+            <a href="#about">Sobre nós</a>
+            <a href="#">Sala de Imprensa</a>
+            <a href="#">Trabalhe Conosco</a>
+            <a href="#">Seja um Franqueado</a>
+        </div>
+
+        <div class="title-search" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h3>Televendas</h3>
+            <p >Segunda a Sexta: 08h às 22h</p>
+            <p >Sábado: 09h às 21h</p>
+            <p >Domingos e Feriados: 10h às 21h</p>
+            <p >vendas@ivTravels.com.br</p>
+        </div>
+
+        <div class="title-search" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h3>Central de Atendimento</h3>
+            <p>(11) 97411-1992</p>
+            <p>Segunda a Sexta: 08h às 20h</p>
+            <p>Sábados e Feriados: 09h às 13h</p>
+            <p>posvenda@ivTravels.com.br</p>
+            <p>Precisa de Ajuda?</p>
+        </div>
+
+        <div class="title-search" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h3>Termos</h3>
+            <p>Condições de Uso</p>
+            <p>Condições Gerais</p>
+            <p>Politica de Privacidade</p>
+            <p>Lei Geral de Proteção de Dados</p>
+            <p>Código de Conduta Ética</p>
+        </div>
+
+        <div class="logo" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <img src="./imagens/logoSite.png">
+        </div>
+    </div>
+    <div class="disp-display">
+        <div class="title-search" data-aos="fade-left"
+        data-aos-offset="-300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h3>Baixe nosso Aplicativo</h3>
+            <div class="download">
+                <img src="./imagens/download.png">
+            </div>
+        </div>
+        <div class="title-search" data-aos="fade-left"
+        data-aos-offset="-300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h3>Siga Ofertas nas Redes</h3>
+            <div class="icons">
+                <img src="https://image.flaticon.com/icons/png/512/145/145802.png">
+                <img src="https://image.flaticon.com/icons/png/512/145/145805.png">
+                <img src="https://image.flaticon.com/icons/png/512/145/145812.png">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfEuUOVFAzuG3WAFZlOvs5dPXXpjiO33o&callback=initMap">
+</script>
+    <script src="walkAround.js"></script>
+</body>
+</html>

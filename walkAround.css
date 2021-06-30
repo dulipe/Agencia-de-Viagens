@@ -1,0 +1,234 @@
+html, body {height: 100%; background-color: black;}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#headerMain-section{
+    height:100%;
+    background-image: url('./imagens/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 0px 2px 4px black;
+    color: white;
+}
+
+#secondPart-section{
+    height: 250%;
+    background-image: url('./imagens/americas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 0px 2px 4px black;
+    text-align: center;
+}
+
+#thirdPart-section{
+    height: 100%;
+    background-image: url('./imagens/thirdPartBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: black !important;
+}
+
+#map{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#fourthPart-section{
+    height: 160%;
+    background-image: url('./imagens/europe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Abril Fatface', cursive;
+    color: black !important;
+}
+
+#fifthPart-section{
+    height: 160%;
+    background-image: url('./imagens/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Abril Fatface', cursive;
+    color: black !important;
+}
+
+.logo{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.header-side{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.header-side div{
+    position: relative;
+    bottom: -10px;
+}
+
+.logoImg{
+    width: 64px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.navigation{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navigation a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#about{
+    color: white;
+}
+
+main{
+    padding: 100px;
+}
+
+main h1{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.left-side-hand{
+    font-size: 48px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+.left-side-hand p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.disp-display{
+    font-family: monospace !important;
+    display: flex;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.title-search{
+    display: flex;
+    flex-direction: column;
+    text-align: justify !important;
+    margin: 20px;
+}
+
+.title-search a, .title-search p{
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.download img{
+    width: 150px;
+}
+
+.icons img{
+    width: 50px;
+}
+
+.tralves-father{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.travels{
+    margin: -10px;
+    width: 33.8%;
+    padding: 80px;
+    text-shadow: none;
+    text-align: justify;
+}
+
+.travel-div:hover{
+    box-shadow: 0px 2px 4px rgb(111, 181, 255);
+}
+
+.travel-div{
+    border-radius: 12px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 400px;
+    color: black;
+}
+
+.space-third{
+    margin-bottom: 70px;
+}
+
+.travel-div img{
+    height: 200px;
+    width: 302px;
+    border-radius: 12px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.travel-div p{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.travel-div h2, .travel-div h3{
+    padding-left: 10px;
+}
+
+.travel-div h2{
+    font-weight: 100;
+}
+
+.type{
+    position: relative;
+    top: -3.5%;
+    left: 70%;
+    background-color: rgb(111, 181, 255);
+    color: white;
+    width: 60px;
+    justify-content: center;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
